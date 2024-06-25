@@ -33,7 +33,7 @@ const data = [
 
 const SideBar = () => {
   return (
-    <div className='lg:flex flex-col w-full border-l pt-8 h-full hidden px-2'>
+    <div className='lg:flex flex-col w-full border-l pt-8 h-full hidden px-2 bg-slate-50'>
       <div className='flex gap-3 pl-5'>
         <button className='border border-red-500 bg-red-50 py-1 px-8 flex items-center rounded-lg text-md text-orange-600 font-semibold max-w-fit'><RiDeleteBin6Line />Delete job</button>
         <button className='border-2 border-orange-400 bg-orange-600 py-2 px-8 flex items-center rounded-lg gap-1 text-md text-white font-semibold'><GrFormEdit className='text-3xl'/>Edit job</button>
