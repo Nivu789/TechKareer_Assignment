@@ -41,7 +41,7 @@ const SideBar = () => {
       <div className='pt-4'>
         {data.map((value)=>(
           <div className={`flex justify-between ${value.key=="Views"?"":"border-b"} p-6 px-8 max-width-fit`} key={value.key}>
-            <div className='flex text-lg items-center gap-2 text-slate-500'>{value.icon}{value.key}</div>
+            <div className='flex text-lg items-center gap-2 text-slate-600'>{value.icon}{value.key}</div>
             <div className='flex text-lg font-bold'>{value.value}</div>
           </div>
         ))}

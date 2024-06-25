@@ -31,14 +31,14 @@ const TitleSection = ({title,location,salary,published}:TitleProps) => {
             </div>
         </div>
         <div className='flex text-xl gap-4 items-center mt-8'>
-            <div className='flex items-center gap-2 text-slate-600 font-semibold'>
+            <div className='flex items-center gap-2 text-slate-500 font-semibold'>
                 <HiOutlineLocationMarker />
                 {location}
             </div>
             <div className='text-slate-300'>
             &#x2022;
             </div>
-            <div className='flex items-center gap-2 text-slate-600 font-semibold'>
+            <div className='flex items-center gap-2 text-slate-500 font-semibold'>
                 <GrMoney />
                 {salary}
             </div>

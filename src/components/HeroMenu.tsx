@@ -13,7 +13,7 @@ const HeroMenu = () => {
         </div>
         <div className='p-4 text-center w-full lg:text-xl text-slate-500 flex justify-center items-center gap-1'>
             <LuMessageSquare />
-            <span className='absolute mr-[76px] mb-5 lg:text-2xl text-red-500'>&#x2022;</span>
+            <span className='absolute mr-[86px] mb-5 lg:text-2xl text-red-500'>&#x2022;</span>
             Messages
         </div>
         
